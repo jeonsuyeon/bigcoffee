@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>빅커피</title>
+  <title>오시는길</title>
   <!-- 웹 폰트 -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
   <!-- font awesome 아이콘 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/stylet.css">
+  <link rel="stylesheet" href="./css/sub.style.css">
   <!--제이쿼리추가-->
   <script src="./js/jquery-3.5.1.min.js"></script>
   <!--사용자 자바스크립트-->
   <script src="./js/main..js"></script>
 </head>
-<body>
+<body id="location">
   <header id="main_header">
     <button class="btn_toggle">
       <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
@@ -43,49 +44,40 @@
     </nav>
     <a href="#" class="btn_right">개설안내</a>
   </header>
-
-  <section id="main_visual">
-    <div class="slider">
-    <img  class="show" src="./banner01@2x.jpg" alt="1">
-    <img src="./banner02@2x.jpg" alt="2">
-    <img src="./banner03@2x.png" alt="3">
+  <div id="main">
+      <section>
+          <header>
+              <h1>오시는길</h1>
+          </header>
+          <article>
+              <h2>빅커피본사안내</h2>
+          <div id="map">
+              <!--여기에 지도 삽입예정-->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.943208272797!2d126.88662031531211!3d37.57995497979538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c996d5a590157%3A0x31bf5aa0622f32fa!2z67mF7Luk7ZS8!5e0!3m2!1sko!2skr!4v1611823689667!5m2!1sko!2skr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+          </div>
+        </article>
+        <div class="address">
+            <table border='1'>
+                <tr>
+                <th>주소</th>
+                <td>서울특별시 마포구 월드컵북로402
+                    KGIT센터 10층<br>
+                    (지하철 공항철도 디지털미디어시티 <br>
+                    MBC정류장 하차 후 도보10분)
+                   </td>  
+                </tr>
+                <tr>
+                <th>대표전화</th>
+                <td>1577-9660</td>
+                </tr>
+                <tr>
+                <th>팩스</th>
+                <td>02-6393-0000</td>
+            </table>
+        </div>
+      </section>
   </div>
-  </section>
-
-  <section id="about">
-    <h2>고객을 위한 우리의 다짐</h2>
-    <p>양질의 다양한 원재료 / 합리적인 가격 / 고객 제일 주의<br>
-      무려 90여종의 카페전문 원두커피 / 카페재료 전문 브랜드
-    </p>
-  </section>
-  <section id="service">
-    <ul>
-        <li>
-        <a href="#">
-        <img src="./Icon awesome-building.svg" alt="브랜드"><p>브랜드</p>
-        </a>
-        </li>
-        <li>
-        <a href="#">
-        <img src="./Icon awesome-hands-helping.svg" alt="납품안내"><p>납품안내</p>
-        </a>
-        </li>
-            <li>
-            <a href="#">
-            <img src="./Icon awesome-coffee.svg" alt="신제품"><p>신제품</p>
-            </a>
-            </li>
-        </ul>
-</section>
-<section id="brand">
-    <h2>브랜드홍보</h2>
-    <div>
-    <iframe src="https://www.youtube.com/embed/5CzeFBEYQp0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div>
-    <iframe src="https://www.youtube.com/embed/KUsMCQIXQdU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </section>
+  
   <footer id="main_footer">
     <div class="sns">
       <a href="https://www.facebook.com/"></a><img src="./Icon awesome-facebook-square.svg" alt="페이스북"></a>

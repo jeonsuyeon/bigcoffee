@@ -1,0 +1,17 @@
+/*location page 스타일*/
+#location > #main > section > header > h1 {
+    line-height: 100px;
+}
+#location > #main > section > header > h2 {
+    margin: 20px;
+}
+
+#location > #main #map {
+    width: 100%;
+    height: 460px;
+    background: #ccc;
+}
+#address > table  {
+   border-width: 100%;
+}
+
